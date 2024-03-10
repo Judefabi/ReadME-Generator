@@ -3,103 +3,100 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Project Name</h3>
+  <h3 align="center">On-Screen Password Input</h3>
 
   <p align="center">
-    Description of the project.
+    Introducing the On-Screen Password Input component – your solution to enhanced security and convenience in React Native applications. Say goodbye to traditional keyboard inputs for passwords and welcome a safer alternative.
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/ProjectName"><strong>View Demo »</strong></a>
+    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input"><strong>View Demo »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/ProjectName">Explore the docs</a>
+    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input">Explore the docs</a>
     .
-    <a href="https://github.com/ShaanCoding/ProjectName/issues">Report Bug</a>
+    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input/issues">Report Bug</a>
     .
-    <a href="https://github.com/ShaanCoding/ProjectName/issues">Request Feature</a>
+    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input/issues">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/ShaanCoding/ProjectName/total) ![Contributors](https://img.shields.io/github/contributors/ShaanCoding/ProjectName?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/ProjectName) ![License](https://img.shields.io/github/license/ShaanCoding/ProjectName) [![Discord](https://img.shields.io/discord/199663269106024449)](https://discord.gg/6Kf422a)
+![Downloads](https://img.shields.io/github/downloads/ShaanCoding/On-Screen-Password-Input/total) ![Contributors](https://img.shields.io/github/contributors/ShaanCoding/On-Screen-Password-Input?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/On-Screen-Password-Input) ![License](https://img.shields.io/github/license/ShaanCoding/On-Screen-Password-Input) [![Discord](https://img.shields.io/discord/199663269106024449)](https://discord.gg/6Kf422a)
 
 ## Table Of Contents
 
 - [Table Of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-- [Built With](#built-with)
+- [About The Component](#about-the-component)
+- [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
+  - [Cloning](#cloning)
+  - [Usage](#usage)
 - [Contributing](#contributing)
   - [Creating A Pull Request](#creating-a-pull-request)
 - [License](#license)
-- [Authors](#authors)
+- [Author](#author)
 - [Acknowledgements](#acknowledgements)
 
-## About The Project
+## About The Component
 
 ![Screen Shot](images/screenshot.png)
 
-This is a project that is still underway for a client that is basically to help savings groups around Kenya to experience the digital world when it comes to managing their savings groups, popularly Chamas in Kenya. With digitization, they will be able to pay monthly contributions, issue loans to members, manage member accounts, approve withdrawals by members, and other group saving activities.
+The On-Screen Password Input component revolutionizes password input in React Native applications. With its sleek design and intuitive interface, users can securely input passwords without the need for traditional keyboards, thus reducing the risk of keyloggers and other security threats.
 
-## Built With
+## Features
 
-The project is built using the following technologies:
-
-- [React Native](https://reactnative.dev/)
-- [SQL](https://www.w3schools.com/sql/)
-- [PHP](https://www.php.net/)
-- [REST API](https://restfulapi.net/)
+- **Enhanced Security:** Protect sensitive information with a password input method that eliminates the risk of keyloggers.
+- **Convenient Integration:** Seamlessly integrate the component into your React Native projects for hassle-free implementation.
+- **Customization Options:** Customize the appearance and behavior of the on-screen keyboard to suit your application's design and requirements.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Cloning
 
-### Prerequisites
+To use the On-Screen Password Input component in your React Native project, follow these steps:
 
-This program has no prerequisites.
-
-### Installation
-
-1. Clone the repo
+1. Clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/ShaanCoding/ProjectName.git
+git clone https://github.com/ShaanCoding/On-Screen-Password-Input.git
 ```
 
-2. Open The project in your preferred code editor.
+2. Navigate to the project directory:
 
-3. Run the following command to install dependencies:
+```sh
+cd On-Screen-Password-Input
+```
+
+3. Install dependencies:
 
 ```sh
 npm install
 ```
 
-4. Start the development server:
+### Usage
 
-```sh
-npm start
+Once you have cloned the repository and installed the dependencies, you can import and use the On-Screen Password Input component in your React Native application:
+
+```javascript
+import React from 'react';
+import { View } from 'react-native';
+import OnScreenPasswordInput from '@shaancoding/on-screen-password-input';
+
+const App = () => {
+  return (
+    <View>
+      <OnScreenPasswordInput />
+    </View>
+  );
+}
+
+export default App;
 ```
 
-## Usage
-
-Coming Soon!
-
-## Roadmap
-
-See the [open issues](https://github.com/ShaanCoding/ProjectName/issues) for a list of proposed features (and known issues).
+That's it! You can now use the On-Screen Password Input component in your project.
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/ShaanCoding/ProjectName/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
-- Please make sure you check your spelling and grammar.
-- Create an individual PR for each suggestion.
-- Please also read through the [Code Of Conduct](https://github.com/ShaanCoding/ProjectName/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+Contributions are welcome and encouraged! Here's how you can contribute:
 
 ### Creating A Pull Request
 
@@ -111,14 +108,14 @@ Contributions are what make the open-source community such an amazing place to b
 
 ## License
 
-Distributed under the MPL-2.0 License. See [LICENSE](https://github.com/ShaanCoding/ProjectName/blob/main/LICENSE.md) for more information.
+Distributed under the MPL-2.0 License. See [LICENSE](https://github.com/ShaanCoding/On-Screen-Password-Input/blob/main/LICENSE.md) for more information.
 
-## Authors
+## Author
 
-- **Your Name** - _Your Role_ - [Your GitHub Profile](https://github.com/your-profile/) - _Your Contribution_
+- **Your Name** - _Your Role_ - [Your GitHub Profile](https://github.com/your-profile/)
 
 ## Acknowledgements
 
 - [ShaanCoding](https://github.com/ShaanCoding/)
-- [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-- [ImgShields](https://shields.io/)
+- [OpenAI](https://openai.com/)
+- [React Native Community](https://github.com/react-native-community)

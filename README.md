@@ -1,4 +1,3 @@
-````markdown
 <p align="center">
   <a href="https://github.com/ShaanCoding/ReadME-Generator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">

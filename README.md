@@ -1,6 +1,7 @@
 <p align="center">
   <a href="https://github.com/ShaanCoding/ReadME-Generator">
-    <img src="[images/logo.png](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQwc2RnMnN3ZjhrNDB3MG9heHVidmh2bDV0M2xzOW01ZXN2MzNyaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WoWm8YzFQJg5i/giphy.gif)" alt="Logo" width="80" height="80">
+     ![Logo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQwc2RnMnN3ZjhrNDB3MG9heHVidmh2bDV0M2xzOW01ZXN2MzNyaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WoWm8YzFQJg5i/giphy.gif)
+  
   </a>
 
   <h3 align="center">On-Screen Password Input</h3>

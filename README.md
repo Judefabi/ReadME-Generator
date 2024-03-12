@@ -1,35 +1,37 @@
 <p align="center">
   <a href="https://github.com/ShaanCoding/ReadME-Generator">
-     ![Logo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQwc2RnMnN3ZjhrNDB3MG9heHVidmh2bDV0M2xzOW01ZXN2MzNyaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WoWm8YzFQJg5i/giphy.gif)
-  
+    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQwc2RnMnN3ZjhrNDB3MG9heHVidmh2bDV0M2xzOW01ZXN2MzNyaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WoWm8YzFQJg5i/giphy.gif" width="100" height="80"/>
   </a>
 
-  <h3 align="center">On-Screen Password Input</h3>
+  <h3 align="center">Streaming App</h3>
 
   <p align="center">
-    Introducing the On-Screen Password Input component – your solution to enhanced security and convenience in React Native applications. Say goodbye to traditional keyboard inputs for passwords and welcome a safer alternative.
+    Welcome to Streaming App – your go-to destination for all your streaming needs. Dive into a world of entertainment with our extensive collection of movies and shows, powered by the TMDB API. With added features like Google authentication and user data storage via Firebase, Streaming App takes your streaming experience to the next level.
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input"><strong>View Demo »</strong></a>
+    <a href="https://github.com/ShaanCoding/Streaming-App"><strong>View Demo »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input">Explore the docs</a>
+    <a href="https://github.com/ShaanCoding/Streaming-App">Explore the docs</a>
     .
-    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input/issues">Report Bug</a>
+    <a href="https://github.com/ShaanCoding/Streaming-App/issues">Report Bug</a>
     .
-    <a href="https://github.com/ShaanCoding/On-Screen-Password-Input/issues">Request Feature</a>
+    <a href="https://github.com/ShaanCoding/Streaming-App/issues">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/ShaanCoding/On-Screen-Password-Input/total) ![Contributors](https://img.shields.io/github/contributors/ShaanCoding/On-Screen-Password-Input?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/On-Screen-Password-Input) ![License](https://img.shields.io/github/license/ShaanCoding/On-Screen-Password-Input) [![Discord](https://img.shields.io/discord/199663269106024449)](https://discord.gg/6Kf422a)
+![Downloads](https://img.shields.io/github/downloads/ShaanCoding/Streaming-App/total) ![Contributors](https://img.shields.io/github/contributors/ShaanCoding/Streaming-App?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/Streaming-App) ![License](https://img.shields.io/github/license/ShaanCoding/Streaming-App) [![Discord](https://img.shields.io/discord/199663269106024449)](https://discord.gg/6Kf422a)
 
 ## Table Of Contents
 
 - [Table Of Contents](#table-of-contents)
-- [About The Component](#about-the-component)
+- [About The Project](#about-the-project)
 - [Features](#features)
+- [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
   - [Cloning](#cloning)
+  - [Installation](#installation)
   - [Usage](#usage)
 - [Contributing](#contributing)
   - [Creating A Pull Request](#creating-a-pull-request)
@@ -37,37 +39,48 @@
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
 
-## About The Component
+## About The Project
 
 ![Screen Shot](images/screenshot.png)
 
-The On-Screen Password Input component revolutionizes password input in React Native applications. With its sleek design and intuitive interface, users can securely input passwords without the need for traditional keyboards, thus reducing the risk of keyloggers and other security threats.
+Streaming App brings the world of entertainment to your fingertips. With access to a vast collection of movies and shows powered by the TMDB API, users can enjoy endless hours of streaming content. Plus, with features like Google authentication and Firebase integration, Streaming App offers a secure and personalized streaming experience.
 
 ## Features
 
-- **Enhanced Security:** Protect sensitive information with a password input method that eliminates the risk of keyloggers.
-- **Convenient Integration:** Seamlessly integrate the component into your React Native projects for hassle-free implementation.
-- **Customization Options:** Customize the appearance and behavior of the on-screen keyboard to suit your application's design and requirements.
+- **Extensive Content Library:** Explore a wide range of movies and shows from various genres.
+- **TMDB Integration:** Access up-to-date information and data on movies and shows through the TMDB API.
+- **User Authentication:** Securely log in to Streaming App using Google authentication or traditional email-password combination.
+- **User Data Storage:** Store user data securely using Firebase, enabling features like watchlists and bookmarked content.
+- **Future Enhancements:** Stay tuned for upcoming features, including subscriptions and advanced user profiles.
+
+## Tech Stack
+
+- **Frontend:** ReactJs
+- **Authentication:** Google Authentication
+- **Backend:** Firebase
+- **API Integration:** TMDB API
 
 ## Getting Started
 
 ### Cloning
 
-To use the On-Screen Password Input component in your React Native project, follow these steps:
+To get started with Streaming App, follow these steps:
 
 1. Clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/ShaanCoding/On-Screen-Password-Input.git
+git clone https://github.com/ShaanCoding/Streaming-App.git
 ```
 
 2. Navigate to the project directory:
 
 ```sh
-cd On-Screen-Password-Input
+cd Streaming-App
 ```
 
-3. Install dependencies:
+### Installation
+
+Install dependencies:
 
 ```sh
 npm install
@@ -75,29 +88,11 @@ npm install
 
 ### Usage
 
-Once you have cloned the repository and installed the dependencies, you can import and use the On-Screen Password Input component in your React Native application:
-
-```javascript
-import React from 'react';
-import { View } from 'react-native';
-import OnScreenPasswordInput from '@shaancoding/on-screen-password-input';
-
-const App = () => {
-  return (
-    <View>
-      <OnScreenPasswordInput />
-    </View>
-  );
-}
-
-export default App;
-```
-
-That's it! You can now use the On-Screen Password Input component in your project.
+Once you have cloned the repository and installed the dependencies, you can start using Streaming App in your development environment.
 
 ## Contributing
 
-Contributions are welcome and encouraged! Here's how you can contribute:
+Contributions are welcome and appreciated! Here's how you can contribute:
 
 ### Creating A Pull Request
 
@@ -109,14 +104,14 @@ Contributions are welcome and encouraged! Here's how you can contribute:
 
 ## License
 
-Distributed under the MPL-2.0 License. See [LICENSE](https://github.com/ShaanCoding/On-Screen-Password-Input/blob/main/LICENSE.md) for more information.
+Distributed under the MPL-2.0 License. See [LICENSE](https://github.com/ShaanCoding/Streaming-App/blob/main/LICENSE.md) for more information.
 
 ## Author
 
-- **Your Name** - _Your Role_ - [Your GitHub Profile](https://github.com/your-profile/)
+- **Jude Fabiano** - _Frontend Develoepr_ - [Your GitHub Profile](https://github.com/your-profile/) - _Hailespace LTD_
 
 ## Acknowledgements
 
 - [ShaanCoding](https://github.com/ShaanCoding/)
-- [OpenAI](https://openai.com/)
-- [React Native Community](https://github.com/react-native-community)
+- [TMDB API](https://www.themoviedb.org/documentation/api)
+- [Firebase](https://firebase.google.com/)
